@@ -12,40 +12,43 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="location" id="location">
+      <select id="locations">
         <option value="" selected>Select a city</option>
-        <option value="">New York</option>
-        <option value="">London</option>
-        <option value="">Peking</option>
-        <option value="">Santiago</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">London</option>
+        <option value="Africa/Johannesburg">Johannesburg</option>
+        <option value="Asia/Shanghai">Shanghai</option>
       </select>
 
-      <div class="city" id="helsinki">
-        <h2>Helsinki</h2>
-        <div>
-          <div class="date">January 18, 2023</div>
-          <div class="time">9:59:14 <small>AM</small></div>
+      <div id="update">
+        <div class="city" id="helsinki">
+          <h2 class="name">Helsinki</h2>
+          <div>
+            <div class="date">January 18, 2023</div>
+            <div class="time">9:59:14 <small>AM</small></div>
+          </div>
         </div>
-      </div>
-      <div class="city" id="paris">
-        <h2>Paris</h2>
-        <div>
-          <div class="date">January 18, 2023</div>
-          <div class="time">8:59:14 <small>AM</small></div>
+
+        <div class="city" id="paris">
+          <h2>Paris</h2>
+          <div>
+            <div class="date">January 18, 2023</div>
+            <div class="time">8:59:14 <small>AM</small></div>
+          </div>
         </div>
-      </div>
-      <div class="city" id="sydney">
-        <h2>Sydney</h2>
-        <div>
-          <div class="date">January 18, 2023</div>
-          <div class="time">11:59:14 <small>PM</small></div>
+        <div class="city" id="sydney">
+          <h2>Sydney</h2>
+          <div>
+            <div class="date">January 18, 2023</div>
+            <div class="time">11:59:14 <small>PM</small></div>
+          </div>
         </div>
-      </div>
-      <div class="city" id="tokyo">
-        <h2>Tokyo</h2>
-        <div>
-          <div class="date">January 18, 2023</div>
-          <div class="time">10:59:14 <small>PM</small></div>
+        <div class="city" id="tokyo">
+          <h2>Tokyo</h2>
+          <div>
+            <div class="date">January 18, 2023</div>
+            <div class="time">10:59:14 <small>PM</small></div>
+          </div>
         </div>
       </div>
     </div>
