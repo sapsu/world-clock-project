@@ -1,6 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-image: linear-gradient(to bottom right, #ffd8a9, #fdeedc);
+  background-image: url("images/v875-katie-35.jpg");
+  background-size: cover;
 }
 h1 {
   text-align: center;
@@ -26,7 +27,7 @@ select {
 
 .container {
   margin: 30px auto;
-  background-color: #fdeedc;
+  background-color: rgba(253, 238, 220, 0.9);
   max-width: 500px;
   border-radius: 10px;
   padding: 30px;
@@ -38,7 +39,7 @@ select {
   padding: 20px 20px;
   margin: 10px 0;
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 8px 15px rgba(255, 216, 169, 0.2);
 }
 
@@ -59,8 +60,8 @@ small {
 
 footer {
   text-align: center;
-  margin: 30px;
-  font-size: 18px;
+  margin-top: 30px;
+  font-size: 16px;
   color: #0a0601;
 }
 a {
@@ -69,4 +70,20 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .time {
+    font-size: 20px;
+  }
+  small {
+    font-size: 10px;
+  }
+  footer {
+    font-size: 12px;
+  }
 }
